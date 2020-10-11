@@ -1,5 +1,4 @@
-# aws-cloudforamtion-template-vpc
-The cf template to launch VPC in AWS
+This is aws cloudformation template to launch VPC in AWS
 # Usage:
 You can run the aws cli command to launch cloudformation StackName
   aws cloudformation --region <region> create-stack --stack-name <stack name> --template-body file://vpc-fargate.yaml
